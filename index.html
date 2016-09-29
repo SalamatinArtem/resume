@@ -1,47 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 	<head>
 	 <title>Резюме</title>
 	  <meta charset="UTF-8">
 	  <link href="main.css" rel="stylesheet">
 	</head>
 	<body>
-		<header>
-		</header>
-		<div class="layout-positioner">
-			<div class="info">
-				<figure>
-					<img src="user.png" alt="моё фото" width="120" height="120">
+			<div class="layout-positioner layout-positioner_margin layout-positioner_text vcard">
+				<figure class="portrait">
+					<img class="portrait__img" src="user.png" alt="моё фото" width="120" height="120">
 				</figure>
-				<h2>Саламатин Артём Олегович<br><b>Стажёр</b></h2>
-			</div>
-			<div class="contact">
-				<ul>
-					<li>Контактный телефон: 8-910-533-17-33</li>
-					<li>E-mail: artemsalamatin2010@yandex.ru</li>
-					<li>Skype: artemsalamatin2010</li>
+				<div class="info info_position fn n">
+					<span class ="info__full-name info__full-name_text"> Саламатин Артём Олегович <br> Стажёр</span>
+				</div>
+				<ul class="contact contact_margin contact_text">
+					<li class="contact__phone tel"><span class="type">Контактный телефон:</span> +7-910-533-17-33</li>
+					<li class="contact__e-mail">E-mail: <span class="email"> artemsalamatin2010@yandex.ru</span></li>
+					<li class="contact__skype">Skype: <span class="skype"> artemsalamatin2010</span></li>
 				</ul>
-			</div>
-		</div>
-		<div class="layout-positioner">
-			<table>
-				<tr>
-					<td>Образование</td>
-					<td>(2012-2016г.) Высшее физико-техническое (бакалавриат, очная форма обучения). Тверской государственный университет, кафедра общей физики.<br>
-					(2016-2018г.) Полное высшее физико-техническое (магистратура, очная форма обучения). Тверской государственный университет, кафедра общей физики.</td>
+		    </div>
+			<div class="layout-positioner layout-positioner_text">
+			<table class="contant contant_border">
+				<tr class="tablerow">
+					<th class="tablerow__header tablerow__header_text tablerow__header_border">Образование</th>
+					<td class="tablerow__maincontant tablerow__maincontant_padding">(2012 — 2016г.) Высшее физико-техническое (бакалавриат, очная форма обучения). Тверской государственный университет, кафедра общей физики.<br>
+					(2016 — 2018г.) Полное высшее физико-техническое (магистратура, очная форма обучения). Тверской государственный университет, кафедра общей физики.</td>
 				</tr>
-				<tr>
-					<td>Опыт работы</td>
-					<td>(июль 2015-...г.) ООО "Артплант". Тестировщик.<br> Поиск и нахождение ошибок в проектах, и сообщение о них программистам. Перепроверка исправленных ошибок.</td>
+				<tr class="tablerow">
+					<th class="tablerow__header tablerow__header_text tablerow__header_border">Опыт работы</th>
+					<td class="tablerow__maincontant  tablerow__maincontant_padding">(июль 2015 - ...г.) ООО «Артплант». Тестировщик.<br> Поиск и нахождение ошибок в проектах, и сообщение о них программистам. Перепроверка исправленных ошибок.</td>
                 </tr>
-                <tr>
-					<td>Дополнительная информиация</td>
-					<td>Базовые знания CSS3, HTML5, C#. Английский язык со словарём.</td>
+                <tr class="tablerow">
+					<th class="tablerow__header tablerow__header_text tablerow__header_border">Дополнительная информация</th>
+					<td class="tablerow__maincontant  tablerow__maincontant_padding">Базовые знания CSS3, HTML5, C#. Английский язык со словарём.</td>
 				</tr>
 			</table>
-		</div>
-		<footer>
-	    </footer>
-
+			</div>
 	</body>
 </html>
